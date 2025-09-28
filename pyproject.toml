@@ -137,3 +137,7 @@ lint.fixable = [
     "YTT",
 ]
 lint.unfixable = []
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
